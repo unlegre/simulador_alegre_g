@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clase.css">
+</head>
+<body>
+<h1 id="titulo">Bienvenidos a Credifacil</h1>
+<h2>Realice una simulacion del prestamo a Solicitar</h2>
+
+<button id="boton_simulador"><h4>Simulador de Prestamo</h4></button>
+<br>
+
+<div class="presupuesto">
+    <fieldset>
+        <h2>Tipo de Prestamo</h2>
+        <h3>Llene los campos necesarios para poder presupuestar el Prestamo</h3>
+        <hr>
+    <label>Especifique el tipo de Ingreso que Posee</label>
+    <br>
+    <label for="">Tipo de Ingreso</label>
+   <br>
+  
+   <button id="Bajo_dependencia">Bajo dependencia</button>
+   <button id="Monotributista">Monotributista</button>
+   <button id="Jubilado">Jubilado</button>
+   <button id="dni">Con DNI</button>
+
+    <hr>
+    <h2 class ="subtitulo"> Ahora es mas Facil !!!</h2>
+    <label for="">Monto a Solicitar en Pesos</label>
+    <br>
+     <select name=" " id=" montos"> 
+         <option value="">5000</option>  
+         <option value="">10000</option>  
+         <option value="">20000</option>  
+         <option value="">50000</option>  
+         <option value="">100000</option>  
+         <option value="">200000</option> 
+         <br>
+         <hr>
+     </select>
+     <hr>
+
+    <br>
+    <label for="">Ingrese la Cantidad de Cuotas </label>
+    <button id="cuotas_3">3 cuotas</button>
+    <button id="ceis">6 cuotas</button>
+    <button id="doce">12 cuotas</button>
+    <button id="diez_y_ocho">18 cuotas</button>
+    
+    
+    <label for="">Elija la Opcion :</label>
+      <hr>
+    </fieldset>
+    
+    <br>
+    <label for="">Cuan conocido es para usted nuestra firma</label><br>
+    <input type="range">
+    <br>
+    <label for="">adjuntar Documentacion Requerida</label>
+    <br>
+    <input type="file"><br>
+    <br>
+
+    
+    <label for="">Escriba algun comentario si es necesario</label>
+    <br>
+    <textarea name="" id="" cols="30" rows="5"></textarea>
+    <br>
+    <input type="submit" value=" enviando">
+    <br>
+    <input type="reset" value=" Borrar">
+    <br>
+    <input type="checkbox">
+    <label for="">acepto los terminos</label>
+     <br>   
+    </div>
+    <h4>formulario</h4>
+<form action="" id="formulario">
+    <h4>Nombre</h4> <input type="text" id ="nombre">
+    <h4>Apellido</h4> <input type="text" id ="apellido">
+    <h4>Email</h4> <input type="text" id ="email">
+    <h4>Telefono</h4> <input type="text" id ="telefono">
+    <h4>Edad</h4> <input type="text" id ="edad">
+    
+    <button>enviar</button>
+</form>
+
+
+    <script src="clase.js"></script>
+    
+</body>
+</html>
